@@ -2,13 +2,15 @@
 #define PLAYER_H
 
 class Player {
-    public:
-        Player();
-        virtual ~Player();
-    
-    protected:
+public:
+    Player();
 
-    private:
+    void CallInput();
+
+protected:
+    int x, y;
+
+private:
 };
 
 # endif

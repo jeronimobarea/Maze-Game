@@ -11,6 +11,8 @@ public:
 
     void Draw();
 
+    void SetPlayerPosition(int PlayerX, int PlayerY);
+
 protected:
 private:
 };
